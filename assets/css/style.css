@@ -1,0 +1,339 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/michaeldmcqueen\.com\/2015\/assets\/sass\/style\.scss}line{font-family:\0000326}}
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  overflow-x: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/michaeldmcqueen\.com\/2015\/assets\/sass\/style\.scss}line{font-family:\0000331}}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/michaeldmcqueen\.com\/2015\/assets\/sass\/style\.scss}line{font-family:\0000334}}
+body {
+  margin: 0;
+  background-color: #F5F4EF;
+  font-family: 'Fira Mono';
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/michaeldmcqueen\.com\/2015\/assets\/sass\/style\.scss}line{font-family:\0000339}}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/michaeldmcqueen\.com\/2015\/assets\/sass\/style\.scss}line{font-family:\0000343}}
+section {
+  max-width: 2000px;
+  padding: 1em;
+  min-height: 800px;
+}
+@media (min-width: 48em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/michaeldmcqueen\.com\/2015\/assets\/sass\/style\.scss}line{font-family:\0000343}}
+  section {
+    padding: 0em 2em 20em 2em;
+    margin-left: 400px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/\.rvm\/gems\/ruby-2\.0\.0-p353\/gems\/breakpoint-2\.5\.0\/stylesheets\/_breakpoint\.scss}line{font-family:\0000392}}
+.no-mq section {
+  padding: 0em 2em 20em 2em;
+  margin-left: 400px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/michaeldmcqueen\.com\/2015\/assets\/sass\/style\.scss}line{font-family:\0000351}}
+section header {
+  padding: 2em 5em 5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/michaeldmcqueen\.com\/2015\/assets\/sass\/style\.scss}line{font-family:\0000355}}
+a {
+  color: #CF1218;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/michaeldmcqueen\.com\/2015\/assets\/sass\/style\.scss}line{font-family:\0000360}}
+#header {
+  background-color: #fff;
+  padding: 1em;
+  position: relative;
+}
+@media (min-width: 48em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/michaeldmcqueen\.com\/2015\/assets\/sass\/style\.scss}line{font-family:\0000360}}
+  #header {
+    padding: 2em;
+    width: 350px;
+    position: fixed;
+    height: 100%;
+    top: 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/\.rvm\/gems\/ruby-2\.0\.0-p353\/gems\/breakpoint-2\.5\.0\/stylesheets\/_breakpoint\.scss}line{font-family:\0000392}}
+.no-mq #header {
+  padding: 2em;
+  width: 350px;
+  position: fixed;
+  height: 100%;
+  top: 0;
+}
+@media (min-width: 48em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/michaeldmcqueen\.com\/2015\/assets\/sass\/style\.scss}line{font-family:\0000371}}
+  #header img.logo {
+    position: absolute;
+    top: 75px;
+    max-width: 670px;
+    left: 6em;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/\.rvm\/gems\/ruby-2\.0\.0-p353\/gems\/breakpoint-2\.5\.0\/stylesheets\/_breakpoint\.scss}line{font-family:\0000392}}
+.no-mq #header img.logo {
+  position: absolute;
+  top: 75px;
+  max-width: 670px;
+  left: 6em;
+}
+
+@media (min-width: 48em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/michaeldmcqueen\.com\/2015\/assets\/sass\/style\.scss}line{font-family:\0000381}}
+  nav {
+    margin-top: 9em;
+    margin-left: 3em;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/\.rvm\/gems\/ruby-2\.0\.0-p353\/gems\/breakpoint-2\.5\.0\/stylesheets\/_breakpoint\.scss}line{font-family:\0000392}}
+.no-mq nav {
+  margin-top: 9em;
+  margin-left: 3em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/michaeldmcqueen\.com\/2015\/assets\/sass\/style\.scss}line{font-family:\0000386}}
+nav img {
+  width: 30px;
+  margin-right: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/michaeldmcqueen\.com\/2015\/assets\/sass\/style\.scss}line{font-family:\0000390}}
+nav a {
+  padding: 1.4em 1em;
+  display: block;
+  text-decoration: none;
+  font-weight: 700;
+  color: inherit;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/michaeldmcqueen\.com\/2015\/assets\/sass\/style\.scss}line{font-family:\0000397}}
+nav img, nav span {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.5em;
+}
+
+@media (min-width: 48em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/michaeldmcqueen\.com\/2015\/assets\/sass\/style\.scss}line{font-family:\00003105}}
+  #work {
+    margin-top: 20em;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/\.rvm\/gems\/ruby-2\.0\.0-p353\/gems\/breakpoint-2\.5\.0\/stylesheets\/_breakpoint\.scss}line{font-family:\0000392}}
+.no-mq #work {
+  margin-top: 20em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/michaeldmcqueen\.com\/2015\/assets\/sass\/style\.scss}line{font-family:\00003110}}
+.project {
+  max-width: 1100px;
+  padding-bottom: 10em;
+}
+
+@media (min-width: 48em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/michaeldmcqueen\.com\/2015\/assets\/sass\/style\.scss}line{font-family:\00003114}}
+  .project-details {
+    padding: 0em 5em 0em;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/\.rvm\/gems\/ruby-2\.0\.0-p353\/gems\/breakpoint-2\.5\.0\/stylesheets\/_breakpoint\.scss}line{font-family:\0000392}}
+.no-mq .project-details {
+  padding: 0em 5em 0em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/michaeldmcqueen\.com\/2015\/assets\/sass\/style\.scss}line{font-family:\00003121}}
+.work-sign, .notes-sign {
+  position: absolute;
+  right: -10%;
+  width: 25%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/michaeldmcqueen\.com\/2015\/assets\/sass\/style\.scss}line{font-family:\00003127}}
+.notes-grid {
+  position: relative;
+  max-width: 95%;
+  padding-top: 2em;
+  overflow: hidden;
+  *zoom: 1;
+  transition: all .25s ease-in;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/michaeldmcqueen\.com\/2015\/assets\/sass\/style\.scss}line{font-family:\00003134}}
+.notes-grid:hover a {
+  transition: all .25s ease-in;
+  opacity: .25;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/michaeldmcqueen\.com\/2015\/assets\/sass\/style\.scss}line{font-family:\00003139}}
+.notes-grid a {
+  display: block;
+  opacity: .75;
+  position: relative;
+  transition: all .25s ease-in;
+  z-index: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/michaeldmcqueen\.com\/2015\/assets\/sass\/style\.scss}line{font-family:\00003146}}
+.notes-grid a:hover {
+  transition: all .25s ease-in;
+  z-index: 999;
+  opacity: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/michaeldmcqueen\.com\/2015\/assets\/sass\/style\.scss}line{font-family:\00003151}}
+.notes-grid a img {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+}
+@media (min-width: 48em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/michaeldmcqueen\.com\/2015\/assets\/sass\/style\.scss}line{font-family:\00003157}}
+  .notes-grid .note-1 {
+    width: 27.17949%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/\.rvm\/gems\/ruby-2\.0\.0-p353\/gems\/breakpoint-2\.5\.0\/stylesheets\/_breakpoint\.scss}line{font-family:\0000392}}
+.no-mq .notes-grid .note-1 {
+  width: 27.17949%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none;
+}
+@media (min-width: 48em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/michaeldmcqueen\.com\/2015\/assets\/sass\/style\.scss}line{font-family:\00003162}}
+  .notes-grid .note-2 {
+    width: 38.46154%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 22.5641%;
+    clear: none;
+    margin-top: 15%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/\.rvm\/gems\/ruby-2\.0\.0-p353\/gems\/breakpoint-2\.5\.0\/stylesheets\/_breakpoint\.scss}line{font-family:\0000392}}
+.no-mq .notes-grid .note-2 {
+  width: 38.46154%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 22.5641%;
+  clear: none;
+  margin-top: 15%;
+}
+@media (min-width: 48em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/michaeldmcqueen\.com\/2015\/assets\/sass\/style\.scss}line{font-family:\00003168}}
+  .notes-grid .note-3 {
+    width: 31.28205%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/\.rvm\/gems\/ruby-2\.0\.0-p353\/gems\/breakpoint-2\.5\.0\/stylesheets\/_breakpoint\.scss}line{font-family:\0000392}}
+.no-mq .notes-grid .note-3 {
+  width: 31.28205%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+@media (min-width: 48em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/michaeldmcqueen\.com\/2015\/assets\/sass\/style\.scss}line{font-family:\00003173}}
+  .notes-grid .note-4 {
+    width: 43.58974%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+    clear: both;
+    padding: 2em 2em 2em 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/\.rvm\/gems\/ruby-2\.0\.0-p353\/gems\/breakpoint-2\.5\.0\/stylesheets\/_breakpoint\.scss}line{font-family:\0000392}}
+.no-mq .notes-grid .note-4 {
+  width: 43.58974%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none;
+  clear: both;
+  padding: 2em 2em 2em 0;
+}
+@media (min-width: 48em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/michaeldmcqueen\.com\/2015\/assets\/sass\/style\.scss}line{font-family:\00003180}}
+  .notes-grid .note-5 {
+    width: 38.46154%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 51.28205%;
+    clear: none;
+    margin-top: -15%;
+    z-index: 1;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/\.rvm\/gems\/ruby-2\.0\.0-p353\/gems\/breakpoint-2\.5\.0\/stylesheets\/_breakpoint\.scss}line{font-family:\0000392}}
+.no-mq .notes-grid .note-5 {
+  width: 38.46154%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 51.28205%;
+  clear: none;
+  margin-top: -15%;
+  z-index: 1;
+}
+@media (min-width: 48em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/michaeldmcqueen\.com\/2015\/assets\/sass\/style\.scss}line{font-family:\00003187}}
+  .notes-grid .note-6 {
+    width: 69.23077%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    clear: both;
+    margin-top: -5%;
+    position: relative;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/\.rvm\/gems\/ruby-2\.0\.0-p353\/gems\/breakpoint-2\.5\.0\/stylesheets\/_breakpoint\.scss}line{font-family:\0000392}}
+.no-mq .notes-grid .note-6 {
+  width: 69.23077%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  clear: both;
+  margin-top: -5%;
+  position: relative;
+}
+@media (min-width: 48em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/michaeldmcqueen\.com\/2015\/assets\/sass\/style\.scss}line{font-family:\00003195}}
+  .notes-grid .note-7 {
+    width: 28.20513%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 5.12821%;
+    clear: none;
+    margin-top: 2%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/\.rvm\/gems\/ruby-2\.0\.0-p353\/gems\/breakpoint-2\.5\.0\/stylesheets\/_breakpoint\.scss}line{font-family:\0000392}}
+.no-mq .notes-grid .note-7 {
+  width: 28.20513%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 5.12821%;
+  clear: none;
+  margin-top: 2%;
+}
